@@ -1,0 +1,14 @@
+package com.college;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class sample {
+
+	@RequestMapping("/homes")
+	public String home() {
+		return "home";
+	}
+
+}
